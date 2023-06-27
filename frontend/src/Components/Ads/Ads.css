@@ -1,0 +1,11 @@
+.ads img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.ads{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

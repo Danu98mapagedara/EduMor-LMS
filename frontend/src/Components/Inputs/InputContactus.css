@@ -1,0 +1,10 @@
+.inputfieldcontactus{
+    outline: 0;
+    border-width: 1px 1px 1px;
+    /* border-color: #041083; */
+    width:25rem;
+    height:2rem;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

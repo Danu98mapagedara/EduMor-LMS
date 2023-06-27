@@ -1,0 +1,55 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+.btn-primary {
+  color: #fff;
+  background-color: #041083;
+  outline: none;
+  padding: 7px 45px;
+  border-radius: 15px;
+}
+
+.btn-primary:hover {
+  color: #041083;
+  background-color: transparent;
+  border: 2px solid #041083;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+  color: #041083;
+  background-color: transparent;
+  border:1px solid  #041083
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 .2rem #041083
+}
+
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c6f84;
+  outline: none;
+  padding: 7px 45px;
+  border-radius: 15px;
+}
+
+.btn-secondary:hover {
+  color: #6c6f84;
+  background-color: transparent;
+  border: 2px solid #6c6f84;
+}

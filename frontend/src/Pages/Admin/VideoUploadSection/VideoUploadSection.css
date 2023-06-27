@@ -1,0 +1,40 @@
+.exam-uploader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  
+  .exam-uploader .label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .exam-uploader .select,
+  .input,
+  .textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .exam-uploader .button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .exam-uploader .button:hover {
+    background-color: #d90069;
+  }
+  
+  .exam-uploader .button:active {
+    background-color: #005cbf;
+  }
+  

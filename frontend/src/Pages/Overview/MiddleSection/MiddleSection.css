@@ -1,0 +1,50 @@
+.middleSection{
+    display: flex;
+    flex: 5;
+    
+}
+
+h5{
+    color: #646a85;
+    margin: 5px 25px 0px 25px;
+}
+
+
+.middleSection .title{
+    font-size: 16px;
+    color: #041083;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.title{
+    color: #041083;
+    font-weight: 500;
+    padding-left: 25px;
+    display: flex;
+    flex: 4;
+    margin-top: 5px;
+
+}
+.middleSection{
+    display: block;
+}
+
+.newExams{
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+    padding: 25px;
+    border-radius: 15px;
+}
+.recent{
+    padding: 15px;
+}
+
+.recentExamTable{
+    background-color: #fff;
+    margin: 0 25px;
+    border-radius: 15px;
+}
+

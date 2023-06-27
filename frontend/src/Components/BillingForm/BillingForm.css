@@ -1,0 +1,12 @@
+.billing-Container::-webkit-scrollbar {
+  width: 5px;
+  background-color: #fff;
+}
+
+.billing-Container::-webkit-scrollbar-thumb {
+  background-color: #737582;
+  border-radius: 10px;
+}
+.package-name {
+  color: #ff7c78;
+}

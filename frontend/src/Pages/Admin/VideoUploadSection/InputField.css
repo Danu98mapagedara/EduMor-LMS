@@ -1,0 +1,52 @@
+/* .inputBox .drag-and-drop {
+    border: 2px dashed gray;
+    padding: 1rem;
+    text-align: center;
+    transition: border-color 0.3s ease-in-out;
+  }
+  .inputBox .drag-and-drop:hover {
+    color: rgb(255, 0, 89);
+  }
+  
+  .inputBox  .drag-and-drop.dragging {
+    border-color: blue;
+  }
+ 
+  .inputBox  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .inputBox  li {
+    margin: 0.5rem 0;
+    word-break: break-all;
+  } */
+
+  .inputBox {
+    border-radius: 10px;
+    border: 2px dashed black;
+    cursor: pointer;
+  }
+  
+  .inputBox:hover {
+    border-color: red;
+  }
+  
+  .inputBox p {
+    color: rgb(28, 25, 25);
+  }
+  
+  .submitButton {
+    background-color: rgb(207, 207, 228);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitButton:hover {
+    background-color:red;
+  }
+  

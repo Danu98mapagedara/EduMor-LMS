@@ -1,0 +1,13 @@
+.mainContainer{
+    flex: 6;
+    height: 100vh;
+}
+.containers{
+    display: flex;
+    background-color: blueviolet;
+}
+.containers span{
+    color: #646a85;
+    font-size: 18px;
+    font-weight: 400;
+}

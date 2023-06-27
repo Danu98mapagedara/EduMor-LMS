@@ -1,0 +1,24 @@
+.courseTable{
+    background:#fff;
+    margin:15px 10px;
+    height:20px;
+    border-radius:15px;
+}
+
+.course-titles {
+  padding-left:15px;
+  padding-top: 20px;
+}
+
+.course-name {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.ms-5 {
+  margin-left: 1.25rem;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}

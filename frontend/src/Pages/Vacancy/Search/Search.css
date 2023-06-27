@@ -1,0 +1,29 @@
+.btn-search{
+    background-color:#041083;
+    border:none;
+    border-radius:12px;
+    padding:5px 40px;
+    color:#fff;
+    flex:1;
+}
+.btn-search:hover{
+      color:#041083;
+      font-weight:bold;
+      background-color: transparent;
+      border:1px solid #041083;
+}
+
+.wrapper-search{
+    border-radius:12px;
+    min-width:1000px;
+    display:flex;
+    gap:20px;
+    box-shadow:8px 1px 5px rgba(0.1,0,0,0.1);
+    padding:5px;
+    margin-bottom:15px;
+    height: 50px;
+}
+
+.select-Bar{
+    flex:5
+}

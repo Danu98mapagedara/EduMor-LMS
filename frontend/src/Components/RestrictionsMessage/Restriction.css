@@ -1,0 +1,15 @@
+.res-btn{
+    background-color:#D36A91 ;
+    color: #ffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.res-msg{
+    color: #646a85;
+    font-weight: 500;
+    padding-left: 5px;
+}
+.res{
+    margin: 5px 0;
+}

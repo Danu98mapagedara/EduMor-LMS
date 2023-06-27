@@ -1,0 +1,45 @@
+.buttoncard{
+    background-color: #fff;
+    width: 260px;
+    height: 260px;
+    display: flex;
+    box-shadow: 0 4px 2px -2px lightblue;
+    margin-left: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.buttoncard h6{
+    color: #646A85;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.buttoncard img{
+    height: 180px;
+    width: auto;
+}
+
+.trialexambutton{
+    border: none;
+    color: white;
+    padding: 7px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: #041083;
+    border-radius: 8px;
+    width: 120px;
+    height: 35px;
+    align-self: center;
+    position: absolute;
+    bottom : 8px;
+    
+}

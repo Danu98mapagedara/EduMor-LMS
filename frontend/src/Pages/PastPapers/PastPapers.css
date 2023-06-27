@@ -1,0 +1,11 @@
+.past-papers-section {
+  max-width: 96%;
+  margin: 5px auto;
+  background-color: #fff;
+  height: 550px;
+  border-radius: 15px;
+  padding: 5px;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+}

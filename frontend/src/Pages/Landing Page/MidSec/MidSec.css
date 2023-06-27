@@ -1,0 +1,57 @@
+.MidContainer{
+    background-color: #E7ECFC;
+    height: auto;
+}
+
+.firstsection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+}
+
+.firstsectionhead{
+    color: #041083;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 21px;
+}
+
+.firstsection h6{
+    margin-top: 20px;
+    margin-right: 55px;
+}
+
+.firstCard{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.secondCard{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.secondsectionhead{
+    color: #041083;
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 21px;
+    margin-left: -1px;
+}
+
+.secondCard{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin: 40px 0px;
+
+}
+
+.secondCard cardImg1{
+    height: 100px;
+    
+}

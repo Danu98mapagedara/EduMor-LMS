@@ -1,0 +1,101 @@
+.signup-container {
+    width: 70%;
+    height: 820px;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    align-items: center;
+    margin: 25px auto;
+    margin-top: 20px;
+  }
+  
+  .login-form h5 {
+    text-align: center;
+  }
+  
+  .login-form h2{
+    color: #041083;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .heading {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #041083;
+  }
+  
+  .formCont {
+    display: flex;
+    flex-direction: row;
+    margin-left: 7rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    position: relative;
+    width: 80%;
+    justify-content: space-between;
+  }
+  
+  .signupform form {
+    margin-top: 25px;
+    width: 100%;
+  }
+  
+  .input-field {
+    display: flex;
+    border-color: #041083;
+    border: none;
+    background-color: #c5cbdd;
+    border-radius: 10px;
+    /* width: 100%; */
+    justify-content: space-between;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fname,
+  .lname,
+  .birthday {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    color: #041083;
+  }
+  
+  .name {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .btnCont {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .signup-img {
+      width: 550px;
+      height: 820px;
+      padding: 2rem;
+      background-color: #041083;
+      border-radius: 0 10px 10px 0;
+      margin-right: -31px;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+  }
+  
+  .signup-img img{
+      width: 450px;
+      height: auto;
+      margin-top: 29%;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
+  }

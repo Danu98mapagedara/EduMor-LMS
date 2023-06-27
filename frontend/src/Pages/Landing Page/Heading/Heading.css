@@ -1,0 +1,35 @@
+.Header{
+    height: 450px;
+    background-color: #A1AAF4 ;
+}
+
+.mainheader{
+    display: flex;
+}
+
+.headertext{
+    display: flex;
+    flex-basis: 35%;
+    flex-direction: column;
+    margin-top: 48px;
+    margin-left: 250px;
+}
+
+.headerimg{
+    display: flex;
+    flex-basis: 80%;
+    margin-top: -29px;
+}
+
+.headertext h1{
+    color: #041083;
+    font-weight: bold;
+}
+
+.headertext h3{
+    color: #FF7C78;
+}
+
+.headertext p{
+    color: gray;
+}

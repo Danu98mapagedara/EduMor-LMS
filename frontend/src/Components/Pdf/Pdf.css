@@ -1,0 +1,12 @@
+.pdf-icon {
+  width: 150px;
+  height :auto;
+  background: #fff;
+  border-radius: 10px;
+  margin: 50px;
+}
+.pdf-icon img {
+  display:flex;
+  width: 140px;
+  margin-top: -10px;
+}

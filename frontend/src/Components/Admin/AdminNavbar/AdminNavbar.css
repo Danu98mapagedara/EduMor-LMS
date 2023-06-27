@@ -1,0 +1,25 @@
+.adminNavbar {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px; 
+  }
+
+.navbaritem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.adminNavbar .notficationIcon{
+    font-size: 25px;
+    color: #646a85;
+    cursor: pointer;
+}
+
+.adminNavbar span{
+    color: #646a85;
+    font-size: 17px;
+    font-weight: 500;
+}

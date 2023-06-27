@@ -1,0 +1,83 @@
+.SidebarAdmin{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+    margin-top: 0;
+    transition: all 300ms ease;
+    background-color: #fff;
+    height: 100vh;
+  }
+
+.SidebarAdmin .menuItem{
+  color: #646a85;
+}
+
+.SidebarAdmin .inactived{
+  padding: 10px 0;
+  margin: 0;
+}
+  
+  .SidebarAdmin .Logo {
+    display: flex;
+    height: 32px;
+    width: auto;
+    font-weight: bold;
+    font-size: 22px;
+    gap: 10px;
+    margin: 20px 5px;
+    padding-left: 20px;
+  }
+  .SidebarAdmin  .Logo span{
+    margin-top: -6px;;
+    font-weight: 900;
+    font-size: larger;
+    color: #041083;
+  }
+  
+  .SidebarAdmin  .Logo  img {
+    width: auto;
+    height: 24px;
+  }
+  
+  
+  /* menu */
+  .SidebarAdmin .menu {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .SidebarAdmin  .menuItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 20px;
+    margin-left: 20px;
+    position: relative;
+    transition: all 300ms ease;
+    font-size: 18px;
+  }
+  
+  .SidebarAdmin .inactived:hover{
+    background-color: #505abb;
+    border-radius: 0 15px 15px 0;
+    color: #fff;
+  }
+  .SidebarAdmin .menuItem:hover{
+    color: #fff;
+  }
+
+  .SidebarAdmin .actived{
+    background-color: #041083;
+    border-radius: 0 15px 15px 0;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .Logout{
+    margin:100px auto;
+  }
+
+  

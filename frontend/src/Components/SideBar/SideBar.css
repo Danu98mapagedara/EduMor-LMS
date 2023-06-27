@@ -1,0 +1,93 @@
+/* @import "lato-font"; */
+.side-bar{
+  flex: 1;
+  min-height: 100vh;
+  max-width: 250px;
+  background-color: #fff;
+  box-shadow: rgba(17, 202, 208, 0.16) 0px 3px 6px, rgba(42, 11, 194, 0.23) 0px 3px 6px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "lato";
+  }  
+
+.side-bar .logo-details {
+  
+  text-align: center;
+  min-width: 78px;
+  display: flex;
+  align-items: center;
+  
+}
+.side-bar .logo-name {
+  font-family: lato;
+  font-style: normal;
+  margin-top: 8px;
+  font-weight: 1000;
+  font-size: 36px;
+  line-height: 48px;
+  color: #041083;
+  margin-right: 15px;
+}
+
+.side-bar .nav-links{
+  margin-left: -15px;
+}
+.logo-img {
+  height: 32px;
+  width: auto;
+  margin: 15px;
+}
+
+.center{
+  margin-top: 20px;
+}
+
+.side-bar ul{
+  list-style: none;
+  padding-left: 0;
+  
+
+}
+.side-bar li{
+ padding: 5px 0;
+}
+
+.side-bar li a{
+  padding: 4px 15px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #646a85;
+} 
+.side-bar li span{
+  padding-left: 15px;
+}
+
+.side-bar a:hover{
+  transition: 0.05s all ease-in-out;
+}
+
+.side-bar li a:hover{
+  display: block;
+  color: #fff;
+  background-color: #7781e2;
+  border-radius: 0px 15px 15px 0px;
+  cursor: pointer;
+}
+
+.side-bar .active{
+  background-color: #041083;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.side-bar .active a{
+  color: #fff;
+}
+
+/* .side-bar li:last-child{
+  margin-top: 120%;
+} */
+

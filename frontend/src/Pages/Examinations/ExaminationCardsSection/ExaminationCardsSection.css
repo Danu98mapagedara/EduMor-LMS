@@ -1,0 +1,19 @@
+.examination-section{
+    width: 100%;
+    max-width: 1000px;
+    height: 550px;
+    background-color: #fff;
+    margin: 5px 25px 5px 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.examination-cards {
+    margin-top: 30px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+}                                       
+

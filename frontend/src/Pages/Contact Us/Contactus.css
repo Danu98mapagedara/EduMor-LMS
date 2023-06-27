@@ -1,0 +1,71 @@
+.header h2{
+    color: #041083;
+    margin-left: 132px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.contactform1{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactform2{
+    margin-left: 132px;
+}
+.contactcontainer{
+    background-color: #c1c6f0;  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: auto;
+    margin-left: 490px;
+    margin-right: 490px;
+    border-radius: 10px;
+}
+
+.message input {
+    height: 100px;
+  }
+
+.contactform1 .Message {
+    outline: 0;
+    border-width: 1px 1px 1px;
+    width:25rem;
+    height:8rem;
+    border-radius: 5px;
+}
+
+.contactbutton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.contactname{
+    color: #041083;
+    border-radius: 10px;
+}
+
+.contactform1 .nametext{
+    outline: 0;
+    border-width: 1px 1px 1px;
+    text-align:start;
+    width:25rem;
+    height:2rem;
+    border-radius: 5px;
+}
+
+.contactform1 .mailtext{
+    outline: 0;
+    border-width: 1px 1px 1px;
+    text-align:start;
+    width:25rem;
+    height:2rem;
+    border-radius: 5px;
+}

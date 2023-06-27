@@ -1,0 +1,23 @@
+.exam-table{
+  position: relative;
+    background-color: #ffff;
+    margin: 10px 25px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    height: 540px;
+    overflow-y: scroll;
+    
+}
+
+.exam-table td{
+  color:#041083;
+}
+
+.exam-table::-webkit-scrollbar {
+    width: 10px;
+}
+
+.exam-table::-webkit-scrollbar-thumb {
+  background-color: #737582;
+  border-radius: 10px;
+}

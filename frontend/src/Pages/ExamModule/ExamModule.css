@@ -1,0 +1,48 @@
+.exam-details{
+    background-color: #ffff;
+    border-radius: 10px;
+    margin: 10px 25px;
+    height: 600px;
+    overflow-y: scroll;
+    height: 580px;
+}
+
+.exam-details img{
+    height: 225px;
+}
+
+.exam-details::-webkit-scrollbar {
+    width: 10px;
+}
+
+.exam-details::-webkit-scrollbar-thumb {
+  background-color: #737582;
+  border-radius: 10px;
+}
+.exam-name{
+    margin-top: 5px;
+    color: #041083;
+    font-size: medium;
+    padding: 10px 15px;
+}
+
+.exam-details img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.exam-description {
+    padding: 10px 15px;
+    color: #646a85;
+    font-weight: 400;
+}
+.exam-details li{
+    list-style: none;
+    margin-left: -15px;
+    font-weight: 400;
+    color:#FF7C78 ;
+}
+
+
+

@@ -1,0 +1,86 @@
+/* @import "lato-font"; */
+.side-bar-sa{
+    flex: 1;
+    min-height: 100vh;
+    max-width: 250px;
+    background-color: #fff;
+    box-shadow: rgba(17, 202, 208, 0.16) 0px 3px 6px, rgba(42, 11, 194, 0.23) 0px 3px 6px;
+  }
+  .side-bar-sa .logo-details {
+    
+    text-align: center;
+    min-width: 78px;
+    display: flex;
+    align-items: center;
+    
+  }
+  .side-bar-sa .logo-name {
+    font-family: lato;
+    font-style: normal;
+    margin-top: 8px;
+    font-weight: 1000;
+    font-size: 36px;
+    line-height: 48px;
+    color: #071397;
+    margin-right: 15px;
+  }
+  
+  .side-bar-sa .nav-links{
+    margin-left: -15px;
+  }
+  .logo-img {
+    height: 32px;
+    width: auto;
+    margin: 15px;
+  }
+  
+  .center{
+    margin-top: 20px;
+  }
+  
+  .side-bar-sa ul{
+    list-style: none;
+    padding-left: 0;
+    
+  
+  }
+  .side-bar-sa li{
+   padding: 5px 0;
+  }
+  
+  .side-bar-sa li a{
+    padding: 4px 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #646a85;
+  } 
+  .side-bar-sa li span{
+    padding-left: 15px;
+  }
+  
+  .side-bar-sa a:hover{
+    transition: 0.05s all ease-in-out;
+  }
+  
+  .side-bar-sa li a:hover{
+    display: block;
+    color: #fff;
+    background-color: #7781e2;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+  }
+  
+  .side-bar-sa .active{
+    background-color: #050586;
+    border-radius: 0px 15px 15px 0px;
+  }
+  
+  .side-bar-sa .active a{
+    color: #fff;
+  }
+
+  .LogoutButton{
+    margin-top: 460px;
+    margin-left: 28px;
+  }

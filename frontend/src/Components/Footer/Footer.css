@@ -1,0 +1,109 @@
+.footer{
+    min-height: 300px;
+    min-width: 1500px;
+    width: 100%;
+    height: auto;
+    background-color: #18234E;
+    color: #ffff;
+    display: flex;
+    gap: 80px;
+}
+
+.footer .footer-one{
+    flex-basis: 30%;
+    padding: 300px 10px 40px 150px;
+}
+
+.footerLogo{
+    margin: 0 auto;
+}
+.footer-one img{
+    height: 48px;
+    width: auto;
+    margin-top: -20px;
+}
+.logoName{
+  font-family: lato;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 36px;
+  line-height: 48px;
+  color: #ffff;
+  padding-left: 8px;
+
+}
+
+.footer .social span{
+    color: #ffff;
+    padding: 10px 5px 10px 0;
+}
+
+.copy-rights{
+    font-weight: 200;
+    font-weight: 500;
+    font-size:small;
+    padding: 5px 0;
+}
+
+.footer .footer-two{
+    flex-basis: 20%;
+    padding-top: 80px;
+}
+.footer-two ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-two li{
+    padding: 5px 0px;
+}
+
+.footer-two li a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 300;
+}
+
+
+.footer-three{
+    flex-basis: 20%;
+    padding-top: 80px;
+}
+
+.footer-three .contact-box{
+    padding-bottom: 25px;
+}
+
+.footer-three .sub-box span{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: 300;
+}
+
+.footer .footer-four{
+    flex-basis: 30%;
+    padding-top: 80px;
+    padding-left: 50px;
+
+}
+
+.footer-four img{
+    padding-top: 10px;
+    width: 150px;
+}
+
+.footer h7{
+    font-weight: bolder;
+    padding-top: 80px;
+
+}
+
+@media screen and (max-width: px) {
+
+    .footer {
+     display: none;
+    }
+    
+    }

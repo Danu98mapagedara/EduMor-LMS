@@ -1,0 +1,94 @@
+.login-container{
+    width: 70%;
+    height: 520px;
+    background-color: #fff;
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.login-form{
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.login-form h6{
+    color: #041083;
+}
+
+.login-form h5{
+    color: #041083;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.inputbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    color: #041083;
+}
+
+.inputfield{
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #041083;
+    width: 34rem;
+}
+
+.loginfeature{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+.loginfeature text{
+    font-size: 13px;
+    color: #041083;
+    font-weight: 500;
+}
+
+.loginbtn{
+    display: flex;
+    margin-left: 35%;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    width: auto;
+}
+
+.signup{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 155px;
+    margin-top: 15px;
+}
+
+.signup h6{
+    margin-top: 2px;
+    cursor: pointer;
+    margin-left: 0.3rem;
+}
+
+.login-img{
+    display: flex;
+    flex-basis: 50%;
+    background-color:  #041083;
+    border-radius: 0 10px 10px 0;
+    margin: auto;
+    height: 520px;
+}
+
+.login-img img{
+    width: 120%;
+    height: 100%;
+    /* margin: auto; */
+    /* align-items: center; */
+    margin-left: -25px;
+}
